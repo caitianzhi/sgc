@@ -1,0 +1,1 @@
+- rewrite: if(in_header["host"] ~ "^vinng.com" && path ~ "^(.*)$") goto "http://weibo.com/watasa$1 [L,QSA,R=301]"
